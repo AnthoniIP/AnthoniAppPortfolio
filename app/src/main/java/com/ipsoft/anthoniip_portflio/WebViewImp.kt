@@ -16,6 +16,7 @@ import android.webkit.WebViewClient
 
 class WebViewImp(activity: Activity) : WebViewClient() {
 
+
     private var activity: Activity? = null
 
     init {

@@ -12,7 +12,9 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val webViewImp = WebViewImp(this)
+
         mainWebView.webViewClient = webViewImp
+
 
         mainWebView.loadUrl("https://anthoniip.github.io")
 
